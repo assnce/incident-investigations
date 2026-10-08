@@ -1,0 +1,17 @@
+[
+  {
+    "finding": "privileged_change_chain",
+    "event_ids": [
+      "win-001",
+      "win-002",
+      "win-003",
+      "win-005",
+      "win-006"
+    ],
+    "host": "ws-lab-01",
+    "actor": "lab-admin",
+    "new_account": "svc_help",
+    "logon_id": "0x8a1",
+    "assessment": "escalate for verification; unauthorized intent and binary execution are not proven"
+  }
+]

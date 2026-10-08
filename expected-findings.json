@@ -1,0 +1,37 @@
+{
+  "01-authentication": [
+    {
+      "finding": "success_after_failures",
+      "event_ids": [
+        "auth-001",
+        "auth-002",
+        "auth-003",
+        "auth-004",
+        "auth-005",
+        "auth-006"
+      ],
+      "source_ip": "192.0.2.10",
+      "username": "alice",
+      "host": "vpn-01",
+      "failed_attempts": 5,
+      "assessment": "suspicious; compromise not established"
+    }
+  ],
+  "02-windows-changes": [
+    {
+      "finding": "privileged_change_chain",
+      "event_ids": [
+        "win-001",
+        "win-002",
+        "win-003",
+        "win-005",
+        "win-006"
+      ],
+      "host": "ws-lab-01",
+      "actor": "lab-admin",
+      "new_account": "svc_help",
+      "logon_id": "0x8a1",
+      "assessment": "escalate for verification; unauthorized intent and binary execution are not proven"
+    }
+  ]
+}

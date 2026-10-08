@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "completeness": "Illustrative partial register; absence of a ticket is not proof of unauthorized activity.",
+  "changes": [
+    {
+      "id": "CHG-LAB-007",
+      "host": "ws-lab-02",
+      "actor": "provisioner",
+      "target": "onboard-user",
+      "action": "create user",
+      "approved": true
+    }
+  ]
+}

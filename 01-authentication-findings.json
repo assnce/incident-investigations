@@ -1,0 +1,18 @@
+[
+  {
+    "finding": "success_after_failures",
+    "event_ids": [
+      "auth-001",
+      "auth-002",
+      "auth-003",
+      "auth-004",
+      "auth-005",
+      "auth-006"
+    ],
+    "source_ip": "192.0.2.10",
+    "username": "alice",
+    "host": "vpn-01",
+    "failed_attempts": 5,
+    "assessment": "suspicious; compromise not established"
+  }
+]
